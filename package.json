@@ -2,9 +2,9 @@
   "name": "Test",
   "description": "Test',
   "version": "0.0.0",
-  "nain": "냥이봇 code",
+  "main": "bot.js",
   "scripts": {
-    "start": "node 냥이봇 code"
+    "start": "node bot.js"
   },
   "dependencies":{
     "discord.js": "11.1.0",
