@@ -1,1 +1,1 @@
-worker: python bot.py
+worker: python Music.cpython-35.pyc
