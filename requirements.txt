@@ -1,2 +1,2 @@
 discord.py
-ffmpeg.exe
+Music.cpython-35.pyc
