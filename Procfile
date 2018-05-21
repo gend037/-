@@ -1,2 +1,2 @@
-worker: python3.6.5 bot.py
-worker: python3.6.5 bo.py
+worker: python bot.py
+
