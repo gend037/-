@@ -1,8 +1,9 @@
 build-essential
-unzip
 git 
-python3.6-dev 
-libav-tools 
+libav-tools
+libopus0
 libopus-dev 
 libffi-dev 
 libsodium-dev
+:repo:ppa:mc3man/xerus-media -y
+
