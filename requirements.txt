@@ -1,2 +1,2 @@
 discord.py
-
+__pycache__
