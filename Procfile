@@ -1,1 +1,2 @@
-worker: python3.5 run.py
+python3.5: python3.5 run.py
+worker: python bot.py
