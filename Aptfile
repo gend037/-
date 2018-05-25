@@ -1,8 +1,6 @@
 build-essential
-
-libav-tools
-libopus0
 git 
+libav-tools
 libffi-dev 
 libsodium-dev
 libopus-dev 
