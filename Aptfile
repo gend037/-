@@ -1,7 +1,7 @@
 libopus-0.dll
 Git
-Libopus-dev.dll
-Libssl-dev.dll
-Libffi-dev.dll
-Libsodium-dev.dll
+Libopus-dev
+Libssl-dev
+Libffi-dev
+Libsodium-dev
 :repo:ppa:mc3man/xerus-media -y
