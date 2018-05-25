@@ -1,9 +1,5 @@
 build-essential
 unzip
-software-properties-common
-:repo:deb http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu trusty main
-:repo:deb http://ppa.launchpad.net/mc3man/trusty-media/ubuntu trusty main
-:repo:deb http://ppa.launchpad.net/chris-lea/libsodium/ubuntu trusty main 
 git 
 python3.6-dev 
 libav-tools 
