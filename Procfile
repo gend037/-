@@ -1,2 +1,2 @@
 
-worker: python3.6 bot.py
+worker: python bot.py
