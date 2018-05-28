@@ -1,10 +1,11 @@
 build-essential
 git 
 libopus-dev 
+libssl-dev
 libav-tools
 libffi-dev 
 libsodium-dev
-libssl-dev
+
 :repo:ppa:mc3man/xerus-media -y
 
 
