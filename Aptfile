@@ -1,5 +1,4 @@
 build-essential
-libopus0
 git 
 libopus-dev 
 libav-tools
