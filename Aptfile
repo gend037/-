@@ -5,5 +5,5 @@ libssl-y
 libffi-y
 libsodium-y 
 :repo:ppa:mc3man/xerus-media -y
-
+ppa:mc3man/xerus-media-y
 
