@@ -1,9 +1,9 @@
 build-essential-y
 git
-libopus-y
-libssl-y
-libffi-y
-libsodium-y 
+libopus
+libssl
+libffi
+libsodium 
 :repo:ppa:mc3man/xerus-media -y
 
 
