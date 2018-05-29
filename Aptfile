@@ -1,5 +1,4 @@
 build-essential-y
-libopus0
 git
 libopus-y
 libssl-y
