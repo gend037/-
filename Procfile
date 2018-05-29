@@ -1,1 +1,1 @@
-worker: python3.6code.py
+worker:python3.6code.py
