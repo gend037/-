@@ -25,11 +25,11 @@ def load_opus_lib(opus_libs=OPUS_LIBS):
  
  
 load_opus_lib()
-
+BOT_PREFIX = ("") 
 for ext in  ["music"]:
     bot.load_extension(ext)
 
-BOT_PREFIX = ("")
+
 TOKEN = "NDM4MzAxMzk5MjUyNzI5ODU2.DcH4lw.RmhcVZfW81uq1LsTEQSz8rd6nH8"
  
 
@@ -42,6 +42,7 @@ client = discord.Client()
 @bot.event
 async def on_ready():
 	print('시작!')
+	await bot.change_presence(game=discord.game(name='Gendo37이랑 코드 손보는중 '))
 
 class Main_Commands():
         def __init__(self, bot):
@@ -105,4 +106,4 @@ if __name__ == "__main__":
         
 
 
-bot.run(TOKEN)
+bot.run(os.environ(TOKEN))
