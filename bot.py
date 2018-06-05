@@ -26,7 +26,7 @@ def load_opus_lib(opus_libs=OPUS_LIBS):
  
 load_opus_lib()
 BOT_PREFIX = ("") 
-for ext in  ["music"]:
+for ext in  ["Music"]:
     bot.load_extension(ext)
 
 
