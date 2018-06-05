@@ -1,5 +1,13 @@
-import asyncio
 import discord
+from discord.ext.commands import Bot
+from discord.ext import commands
+from discord.voice_client import Voiceclient
+from discord import opus
+import asyncio
+import time
+import random
+import os 
+import functools, youtube_dl
 from discord.ext import commands
 if not discord.opus.is_loaded():
     # the 'opus' library here is opus.dll on windows
@@ -19,10 +27,10 @@ class VoiceEntry:
         self.player = player
 
     def __str__(self):
-        fmt = ' {0.title} uploaded by {0.uploader} and requested by {1.display_name}'
+        fmt = ' {0.title} 작성 {0.uploader}   {1.display_name}(이)가 '
         duration = self.player.duration
         if duration:
-            fmt = fmt + ' [length: {0[0]}m {0[1]}s]'.format(divmod(duration, 60))
+            fmt = fmt + ' [시간: {0[0]}분 {0[1]}초]'.format(divmod(duration, 60))
         return fmt.format(self.player, self.requester)
 
 class VoiceState:
