@@ -1,11 +1,9 @@
-
-
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 from discord.voice_client import VoiceClient
 import asyncio
-import time 
+import time
 import random
 import os
 from discord import opus
@@ -28,7 +26,6 @@ def load_opus_lib(opus_libs=OPUS_LIBS):
  
 load_opus_lib()
 
-bot = commands.Bot("")
 for ext in  ["music"]:
     bot.load_extension(ext)
 
@@ -95,15 +92,7 @@ async def 놀아줘():
     ]
     await bot.say(random.choice(possible_responses))
 
-@bot.command()
-async def 시발():
-    possible_responses = [
-        '이런 미친놈이',
-        '욕 하면 죽인다',
-        '경고임 ㅅㄱ',
-
-    ]
-    await bot.say(random.choice(possible_responses))
+  
 
 if __name__ == "__main__":
         for extension in startup_extensions:
@@ -114,12 +103,6 @@ if __name__ == "__main__":
                 print('failed to load extension {}/n{}'.format(extension, exc))
 
         
-
-
-
-
-
-
 
 
 bot.run(TOKEN)
